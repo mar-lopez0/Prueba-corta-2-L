@@ -1,0 +1,326 @@
+.header{
+    width: 100%;
+    height: 6rem;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    
+}
+.btn-menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1 ;
+    grid-row-end:3 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #ecf0f4;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.txt-naranja{
+    color: #FC6E2A;
+    font-weight: 800;
+    font-size: 1.2rem;
+
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-end:1 ;
+    grid-row-start:2 ;
+
+    align-self:flex-end; 
+}
+.txt-negro{
+    color: #676767 ;
+    font-weight: 800;
+    font-size: 1.2rem;
+
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-end:2 ;
+    grid-row-start:3 ;
+
+    align-self:flex-start; 
+
+
+}
+.btb-car{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-end:1 ;
+    grid-row-start:3 ;
+
+    background-color: black;
+    width: 6rem;
+    height:6rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+}
+.cantidad-car{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #FC6E2A;
+    border-radius: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+.saludoo{
+    display: grid;
+    grid-template-columns: 90px auto;
+    padding: 2rem 1rem 0 1rem ;
+}
+.saludo1 {
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.saludo2 {
+    font-family: monospace;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.buscador {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 60px;
+}
+.div-buscar{
+    padding: 1rem 0;
+    width: 400px;
+    height: 60px;
+
+}
+.Texto{
+    border-radius: 1.5rem;
+    padding: 2rem 0;
+    padding-left: 2.4rem;
+    width: 400px;
+    height: 60px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    color: #676767;
+    gap: 1.5rem;
+
+}
+.Categories{
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.Catego{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #32343e;
+    font-family: monospace;
+}
+.See{
+    font-size: 1.9rem;
+    font-weight: 400; 
+    font-family: monospace;          
+    gap: 2rem;
+    color: #333333;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.See img{
+    width: 1rem;
+    height: 2rem;
+
+}
+.Cate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+.All{
+    border-radius: 5rem;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 3px;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffd27c;
+
+}
+.Hotdog{
+    border-radius: 5rem;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 3px;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ffffff;
+}
+.burger{
+    border-radius: 5rem;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 3px;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffff;
+}
+.foods{
+    text-decoration: none;
+}
+.block1{
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+    font-size: 14px;
+    background-color: #98A8B8;
+}
+.block1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+}
+.block2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #32343e;
+}
+.block3{
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+    font-size: 14px;
+    background-color: #98A8B8;
+}
+.block3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+}
+.block4{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #32343e;
+}
+.block5{
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+    font-size: 14px;
+    background-color: #98A8B8;
+}
+.block5 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+
+}
+.block6{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #32343e;
+}
+.Garden{
+    padding-top:10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+}
+.garden1 img{
+    width:400px ;
+    height:160px ;
+    border-radius: 15px;
+}
+
+.garden1{
+    background-color: #676767;
+    width: 400px;
+    height: 160px;
+    border-radius: 15px;
+}
+.Rose_garden{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+}
+.Roseee{
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #181c23;
+}
+.Rosegris{
+    display: grid;
+    grid-template-columns:75px 70px 70px 70px;
+    grid-template-rows: 1fr;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: monospace;
+    color: #A0A5BA;
+}
+.Roseamarillo{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.estrella{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.camion{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.reloj{
+    font-size: 14px;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.Roseegarden{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+}
+.garden2{
+    background-color: #676767;
+    width: 400px;
+    height: 130px;
+    border-radius: 15px;
+}
+.garden2 img{
+    width: 400px;
+    height: 130px;
+    border-radius: 15px;
+}
